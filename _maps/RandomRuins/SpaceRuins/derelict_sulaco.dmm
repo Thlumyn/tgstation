@@ -321,11 +321,11 @@
 /obj/item/kirbyplants{
 	pixel_y = 10
 	},
-/obj/machinery/camera/directional/north{
-	network = list()
-	},
 /obj/effect/turf_decal/tile/red/anticorner{
 	dir = 1
+	},
+/obj/machinery/camera/autoname/directional/north{
+	network = list()
 	},
 /turf/open/floor/iron/smooth_corner,
 /area/ruin/space/has_grav/derelictsulaco)
@@ -1199,9 +1199,6 @@
 /turf/template_noop,
 /area/template_noop)
 "Ng" = (
-/obj/machinery/camera/directional/south{
-	network = list()
-	},
 /obj/machinery/light/small/broken/directional/south,
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/derelictsulaco)
@@ -1249,9 +1246,6 @@
 /turf/open/floor/plating/airless,
 /area/ruin/space)
 "OK" = (
-/obj/machinery/camera/directional/south{
-	network = list()
-	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/xenoblood/xgibs/down,
 /obj/machinery/computer/monitor{
@@ -1259,6 +1253,9 @@
 	},
 /obj/effect/turf_decal/tile/red/anticorner{
 	dir = 8
+	},
+/obj/machinery/camera/autoname/directional/south{
+	network = list()
 	},
 /turf/open/floor/iron/smooth_corner{
 	dir = 4
@@ -1386,12 +1383,12 @@
 /turf/open/floor/pod/light,
 /area/ruin/space/has_grav/derelictsulaco)
 "SD" = (
-/obj/machinery/camera/directional/west{
-	network = list()
-	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
+/obj/machinery/camera/autoname/directional/west{
+	network = list()
+	},
 /turf/open/floor/carpet,
 /area/ruin/space/has_grav/derelictsulaco)
 "SE" = (
@@ -1419,6 +1416,9 @@
 /area/ruin/space/has_grav/derelictsulaco)
 "Tg" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/camera/autoname/directional/south{
+	network = list()
+	},
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/derelictsulaco)
 "Ti" = (
@@ -1593,11 +1593,11 @@
 /area/ruin/space)
 "XK" = (
 /obj/structure/alien/weeds,
-/obj/machinery/camera/directional/west{
-	network = list()
-	},
 /obj/effect/decal/remains/xeno/larva,
 /obj/machinery/light/dim/directional/west,
+/obj/machinery/camera/autoname/directional/west{
+	network = list()
+	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/derelictsulaco)
 "Yh" = (
